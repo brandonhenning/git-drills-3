@@ -1,0 +1,20 @@
+  560  cd git-assessment-pull-example
+  561  ls
+  562  git remote add origin https://github.com/brandonhenning/git-drills-3.git
+  563  git remote -v
+  564  git remote set-url origin https://github.com/brandonhenning/git-drills-3.git
+  565  git remote -v
+  566  gir status
+  567  git status
+  568  git add -all
+  569  git add --all
+  570  git status
+  571  git commit -m "re commit"
+  572  git push -u origin master
+  573  git remote -v
+  574  git remote set-url origin git@github.com:baker-marlena/Im-so-broken.git
+  575  git remote set-url origin https://github.com/brandonhenning/git-drills-3.git
+  576  git add --all
+  577  git commit -m "done with git lol"
+  578  git push -u origin master
+  579  history | tail -n 20 > my-commands
