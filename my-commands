@@ -1,20 +1,21 @@
-  560  cd git-assessment-pull-example
-  561  ls
-  562  git remote add origin https://github.com/brandonhenning/git-drills-3.git
-  563  git remote -v
-  564  git remote set-url origin https://github.com/brandonhenning/git-drills-3.git
-  565  git remote -v
-  566  gir status
-  567  git status
-  568  git add -all
-  569  git add --all
-  570  git status
-  571  git commit -m "re commit"
-  572  git push -u origin master
-  573  git remote -v
-  574  git remote set-url origin git@github.com:baker-marlena/Im-so-broken.git
-  575  git remote set-url origin https://github.com/brandonhenning/git-drills-3.git
-  576  git add --all
-  577  git commit -m "done with git lol"
-  578  git push -u origin master
-  579  history | tail -n 20 > my-commands
+<<<<<<< HEAD
+  578  git clone git@github.com:brandonhenning/git-assessment-pull-example.git
+  579  ls
+  580  cd git-assessment-pull-example
+  581  git add styles.css
+  582  git status
+  583  git commit -m "first commit"
+  584  git add styles.css
+  585  git status
+  586  git commit -m "edited styles.css"
+  587  git push -u origin master
+  588  git pull
+  589  git remote -v
+  590  git remote set-url git@github.com:baker-marlena/Im-so-broken.git
+  591  git remote rm destination
+  592  git remote rm git@github.com:baker-marlena/Im-so-broken.git
+  593  git remote set-url origin https://github.com/brandonhenning/git-drills-3.git
+  594  git add --all
+  595  git commit -m "added h1 in index.html"
+  596  git push -u origin master
+  597  history | tail -n 20 > my-commands
