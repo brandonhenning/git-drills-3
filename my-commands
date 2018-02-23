@@ -1,4 +1,3 @@
-<<<<<<< HEAD
   578  git clone git@github.com:brandonhenning/git-assessment-pull-example.git
   579  ls
   580  cd git-assessment-pull-example
@@ -12,10 +11,9 @@
   588  git pull
   589  git remote -v
   590  git remote set-url git@github.com:baker-marlena/Im-so-broken.git
-  591  git remote rm destination
-  592  git remote rm git@github.com:baker-marlena/Im-so-broken.git
-  593  git remote set-url origin https://github.com/brandonhenning/git-drills-3.git
-  594  git add --all
-  595  git commit -m "added h1 in index.html"
-  596  git push -u origin master
-  597  history | tail -n 20 > my-commands
+  591  git remote rm git@github.com:baker-marlena/Im-so-broken.git
+  592  git remote set-url origin https://github.com/brandonhenning/git-drills-3.git
+  593  git add --all
+  594  git commit -m "added h1 in index.html"
+  595  git push -u origin master
+  596  history | tail -n 20 > my-commands
